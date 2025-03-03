@@ -3,7 +3,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/apis.yml
 apis:
   - aid: palantir:palantir
-    name: Palantir
+    name: Palantir Foundry API
     tags:
       - API
     humanURL: >-
@@ -29,9 +29,16 @@ created: '2025-03-01'
 modified: '2025-03-02'
 position: Consumer
 description: >-
-  The Foundry API is a developer-friendly REST API for interacting with
-  Palantirs Foundry platform. It can be used to build applications on top of
-  Palantirs products. 
+  Palantir is a data analytics company that specializes in providing software
+  solutions for organizations to make sense of their data. They offer a platform
+  that allows for data integration, visualization, and analysis in order to help
+  businesses make informed decisions. Palantir's technology is used by a wide
+  range of industries, including government agencies, financial institutions,
+  and healthcare organizations, to solve complex problems and improve
+  operational efficiency. Their tools help clients to uncover insights, identify
+  trends, and mitigate risks by leveraging the power of big data. Overall,
+  Palantir serves as a powerful ally for businesses looking to harness the full
+  potential of their data.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
