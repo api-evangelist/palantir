@@ -8,10 +8,10 @@ type: Index
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Data Analytics
   - AI Platform
-  - Government
+  - Data Analytics
   - Enterprise
+  - Government
 url: >-
   https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/apis.yml
 created: '2025-03-01'
@@ -26,8 +26,8 @@ apis:
       transformation, and analysis workflows within the Palantir Foundry platform.
     humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
     tags:
-      - Data Analytics
       - AI Platform
+      - Data Analytics
       - Enterprise
     properties:
       - type: Documentation
