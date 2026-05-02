@@ -1,42 +1,57 @@
 # Palantir (palantir)
-Palantir is a data analytics company that specializes in providing software solutions for organizations to make sense of their data. They offer a platform that allows for data integration, visualization, and analysis in order to help businesses make informed decisions. Palantir's technology is used by a wide range of industries, including government agencies, financial institutions, and healthcare organizations, to solve complex problems and improve operational efficiency. Their tools help clients to uncover insights, identify trends, and mitigate risks by leveraging the power of big data. Overall, Palantir serves as a powerful ally for businesses looking to harness the full potential of their data.
+
+Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Surveillance, Policing, Military, Government
+- AI Platform
+- Data Analytics
+- Enterprise
+- Government
 
 ## Timestamps
 
-- **Created:** 2025-03-01 
-- **Modified:** 2025-03-02 
+- **Created:** 2025-03-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Palantir Foundry API
-Palantir Foundry API is a powerful tool that allows developers to easily integrate and automate data workflows within the Palantir Foundry platform. With the API, users can access and manipulate data from various sources, such as databases, cloud services, and external applications, to build custom data pipelines and applications that streamline data processing and analysis. The API also provides robust security features to ensure that data remains protected and only authorized users have access to sensitive information. Ultimately, the Palantir Foundry API empowers organizations to leverage their data more effectively and make informed decisions based on actionable insights.
+
+Palantir Foundry API provides programmatic access to data integration, transformation, and analysis workflows within the Palantir Foundry platform. The v2 API uses OAuth 2.0 and JSON, with endpoints organized across Admin, AIP Agents, Datasets, Ontologies, Orchestration, Connectivity, Media Sets, and Streams.
 
 **Human URL:** [https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/](https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/)
 
+#### Tags
 
-#### Tags:
-
- - Surveillance, Policing, Military, Government
+- AI Platform
+- Data Analytics
+- Enterprise
 
 #### Properties
 
 - [Documentation](https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/)
+- [Authentication](https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication/)
+- [Getting Started](https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/)
+
+## Common Properties
+
+| Property | URL |
+|----------|-----|
+| Portal | https://www.palantir.com/docs/ |
+| Documentation | https://www.palantir.com/docs/foundry/ |
+| Website | https://www.palantir.com/ |
+| Privacy Policy | https://www.palantir.com/privacy-and-security/ |
+| Terms of Service | https://www.palantir.com/terms-of-service/ |
 
 ## Maintainers
 
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
-
+- **Kin Lane** - kin@apievangelist.com
