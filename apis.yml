@@ -42,6 +42,10 @@ apis:
       - type: GettingStarted
         url: https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/palantir
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/palantir-technologies
   - type: Portal
     url: https://www.palantir.com/docs/
   - type: Documentation
