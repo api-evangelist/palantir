@@ -42,6 +42,12 @@ apis:
       - type: GettingStarted
         url: https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/palantir-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/palantir-domain-security.yml
+  - type: Authentication
+    url: authentication/palantir-authentication.yml
   - type: GitHubOrganization
     url: https://github.com/palantir
   - type: LinkedIn
@@ -56,6 +62,8 @@ common:
     url: https://www.palantir.com/privacy-and-security/
   - type: TermsOfService
     url: https://www.palantir.com/terms-of-service/
+  - url: https://blog.palantir.com/feed
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
