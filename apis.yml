@@ -42,6 +42,8 @@ apis:
       - type: GettingStarted
         url: https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/
 common:
+  - type: AgenticAccess
+    url: agentic-access/palantir-agentic-access.yml
   - type: VulnerabilityDisclosure
     url: security/palantir-vulnerability-disclosure.yml
   - type: DomainSecurity
