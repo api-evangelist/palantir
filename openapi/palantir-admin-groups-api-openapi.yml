@@ -1,0 +1,47 @@
+openapi: 3.1.0
+info:
+  title: Palantir Foundry API v2 Admin - Groups API
+  description: The Palantir Foundry API v2 is a REST API for interacting with Foundry resources such as users, groups, datasets, and ontologies. Endpoints use OAuth 2.0 (with Bearer tokens) and largely use JSON requests and responses.
+  version: v2
+  contact:
+    name: Palantir Foundry
+    url: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+servers:
+- url: https://{hostname}/api/v2
+  description: Foundry tenant API base URL
+  variables:
+    hostname:
+      default: foundry.example.palantirfoundry.com
+      description: The hostname of your Foundry stack
+security:
+- bearerAuth: []
+tags:
+- name: Admin - Groups
+paths:
+  /admin/groups:
+    get:
+      tags:
+      - Admin - Groups
+      summary: List groups
+      description: Retrieves all groups in the system with pagination support. The response includes group details such as name, organizations, description, and realm information.
+      operationId: listGroups
+      parameters:
+      - in: query
+        name: pageSize
+        schema:
+          type: integer
+      - in: query
+        name: pageToken
+        schema:
+          type: string
+      responses:
+        '200':
+          description: A paginated list of groups
+        '401':
+          description: Unauthorized
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: OAuth 2.0 Bearer token. The token must be passed as an `Authorization` header using the `Bearer` authentication scheme. Foundry supports user-generated API tokens (for development), Authorization Code grant, and Client Credentials grant.
