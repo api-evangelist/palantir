@@ -8,7 +8,20 @@ description: >-
   government use cases.
 type: Index
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palantir.png
 tags:
   - AI Platform
   - Data Analytics
@@ -21,26 +34,52 @@ modified: '2026-04-28'
 position: Consumer
 specificationVersion: '0.19'
 apis:
-  - aid: palantir:palantir-foundry-api
-    name: Palantir Foundry API
-    description: >-
-      Palantir Foundry API provides programmatic access to data integration,
-      transformation, and analysis workflows within the Palantir Foundry
-      platform. The v2 API uses OAuth 2.0 and JSON, with endpoints organized
-      across Admin, AIP Agents, Datasets, Ontologies, Orchestration,
-      Connectivity, Media Sets, and Streams.
-    humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
-    tags:
-      - AI Platform
-      - Data Analytics
-      - Enterprise
-    properties:
-      - type: Documentation
-        url: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
-      - type: Authentication
-        url: https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication/
-      - type: GettingStarted
-        url: https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/
+- aid: palantir:palantir-foundry-api
+  name: Palantir Foundry API
+  description: >-
+    Palantir Foundry API provides programmatic access to data integration, transformation, and analysis
+    workflows within the Palantir Foundry platform. The v2 API uses OAuth 2.0 and JSON, with endpoints
+    organized across Admin, AIP Agents, Datasets, Ontologies, Orchestration, Connectivity, Media Sets,
+    and Streams.
+  humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+  tags:
+  - AI Platform
+  - Data Analytics
+  - Enterprise
+  properties:
+  - type: Documentation
+    url: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+  - type: Authentication
+    url: https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication/
+  - type: GettingStarted
+    url: https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/
+- aid: palantir:palantir-admin-groups-api
+  name: Palantir Admin - Groups API
+  description: The Admin - Groups API from Palantir — 1 operation(s) for admin - groups.
+  humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+  tags:
+  - Admin - Groups
+  properties:
+  - type: OpenAPI
+    url: openapi/palantir-admin-groups-api-openapi.yml
+- aid: palantir:palantir-admin-users-api
+  name: Palantir Admin - Users API
+  description: The Admin - Users API from Palantir — 1 operation(s) for admin - users.
+  humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+  tags:
+  - Admin - Users
+  properties:
+  - type: OpenAPI
+    url: openapi/palantir-admin-users-api-openapi.yml
+- aid: palantir:palantir-datasets-api
+  name: Palantir Datasets API
+  description: The Datasets API from Palantir — 1 operation(s) for datasets.
+  humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
+  tags:
+  - Datasets
+  properties:
+  - type: OpenAPI
+    url: openapi/palantir-datasets-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/palantir-agentic-access.yml
