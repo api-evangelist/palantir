@@ -70,7 +70,7 @@ apis:
   description: The Admin - Groups API from Palantir — 1 operation(s) for admin - groups.
   humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
   tags:
-  - Admin - Groups
+  - Admin Groups
   tags_raw:
   - Admin - Groups
   properties:
@@ -81,7 +81,7 @@ apis:
   description: The Admin - Users API from Palantir — 1 operation(s) for admin - users.
   humanURL: https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/
   tags:
-  - Admin - Users
+  - Admin Users
   tags_raw:
   - Admin - Users
   properties:
