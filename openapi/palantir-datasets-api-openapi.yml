@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Palantir Foundry API v2 Admin - Groups Datasets API
+  title: Palantir Foundry API v2 Datasets API
   description: The Palantir Foundry API v2 is a REST API for interacting with Foundry resources such as users, groups, datasets, and ontologies. Endpoints use OAuth 2.0 (with Bearer tokens) and largely use JSON requests and responses.
   version: v2
   contact:

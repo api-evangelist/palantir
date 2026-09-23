@@ -1,9 +1,7 @@
 {
   "provider": "palantir",
   "sources": [
-    "palantir-admin-groups-api-openapi.yml",
-    "palantir-admin-users-api-openapi.yml",
-    "palantir-datasets-api-openapi.yml"
+    "_original/palantir-openapi.yml"
   ],
   "outputs": [
     "palantir-admin-groups-api-openapi.yml",
@@ -13,6 +11,14 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "palantir-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "palantir-admin-groups-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "palantir-admin-users-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "palantir-datasets-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
