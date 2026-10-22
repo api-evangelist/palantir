@@ -265,3 +265,33 @@
     detected: '2026-10-22'
   status: not-a-workflow
   arazzo: null
+- slug: palantir-cran
+  label: CRAN
+  partner_name: CRAN
+  category: official SDK (R)
+  type: register
+  channel: package-registry
+  evidence: https://cran.r-project.org/package=foundry
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: CRAN (packages.rds, the public package metadata table)
+    spec_file: null
+    language: R
+    packages:
+    - name: foundry
+      version: 0.13.0
+      title: '''Palantir Foundry'' Software Development Kit'
+      released: '2023-05-19'
+      released_field: Published
+      lapsed: true
+      page: https://cran.r-project.org/package=foundry
+      repo_leg: github-org:palantir
+      publisher_leg: email:palantir.com
+      matched_by: domain
+    current: false
+    signal_note: 'an official R package on CRAN: distribution, not an integration; lapsed = no release in 24 months'
+    detected_by: sweep-cran-r-packages.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
