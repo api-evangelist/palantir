@@ -1,4 +1,4 @@
-# Palantir (palantir)
+# Palantir
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,59 +66,124 @@
 
 Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/apis.yml)
+**Areas:** AI Platform · Data Analytics · Enterprise · Government
 
-## Scope
+## Palantir on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Palantir is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/palantir/](https://apis.io/providers/palantir/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (4)
 
-- AI Platform
-- Data Analytics
-- Enterprise
-- Government
+- [Palantir Foundry API](https://apis.io/apis/palantir/palantir-foundry-api/) — Palantir Foundry API provides programmatic access to data integration, transformation, and analysis workflows within the Palantir Foundry platform. The v2…
+- [Palantir Admin - Groups API](https://apis.io/apis/palantir/palantir-admin-groups-api/) — The Admin - Groups API from Palantir — 1 operation(s) for admin - groups.
+- [Palantir Admin - Users API](https://apis.io/apis/palantir/palantir-admin-users-api/) — The Admin - Users API from Palantir — 1 operation(s) for admin - users.
+- [Palantir Datasets API](https://apis.io/apis/palantir/palantir-datasets-api/) — The Datasets API from Palantir — 1 operation(s) for datasets.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Palantir Foundry API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Palantir Foundry API provides programmatic access to data integration, transformation, and analysis workflows within the Palantir Foundry platform. The v2 API uses OAuth 2.0 and JSON, with endpoints organized across Admin, AIP Agents, Datasets, Ontologies, Orchestration, Connectivity, Media Sets, and Streams.
+- [Palantir Agentic Access](https://apis.io/agentic-access/palantir/palantir-agentic-access/)
 
-- **Human URL:** [https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/](https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/)
+#### Collections (4)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- AI Platform
-- Data Analytics
-- Enterprise
+- [Palantir Foundry API v2](https://apis.io/collections/palantir/open-palantir/)
+- [Palantir Foundry API v2 Admin - Groups API](https://apis.io/collections/palantir/open-palantir-admin-groups-api/)
+- [Palantir Foundry API v2 Admin - Groups Admin - Users API](https://apis.io/collections/palantir/open-palantir-admin-users-api/)
+- [Palantir Foundry API v2 Admin - Groups Datasets API](https://apis.io/collections/palantir/open-palantir-datasets-api/)
 
-#### Properties
+#### Security (3)
 
-- [Documentation](https://www.palantir.com/docs/foundry/api/v2/general/overview/introduction/)
-- [Authentication](https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication/)
-- [Getting Started](https://www.palantir.com/docs/foundry/api/v2/general/overview/getting-started/)
-- [Postman Collection](collections/palantir.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/palantir.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Palantir Authentication](https://apis.io/security/palantir/palantir-authentication/)
+- [Palantir Domain Security](https://apis.io/security/palantir/palantir-domain-security/)
+- [Palantir Vulnerability Disclosure](https://apis.io/security/palantir/palantir-vulnerability-disclosure/)
 
-- [GitHub Organization](https://github.com/palantir)
-- [LinkedIn](https://www.linkedin.com/company/palantir-technologies)
-- [Portal](https://www.palantir.com/docs/)
-- [Documentation](https://www.palantir.com/docs/foundry/)
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Palantir Plans Pricing](https://apis.io/plans/palantir/palantir-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Palantir Rate Limits](https://apis.io/rate-limits/palantir/palantir-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Palantir Finops](https://apis.io/finops/palantir/palantir-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.palantir.com/)
-- [Privacy Policy](https://www.palantir.com/privacy-and-security/)
-- [Terms of Service](https://www.palantir.com/terms-of-service/)
+- [Documentation](https://www.palantir.com/docs/foundry/)
+- [Blog](https://blog.palantir.com/feed)
+- [Terms of service](https://www.palantir.com/terms-of-service/)
+- [Privacy policy](https://www.palantir.com/privacy-and-security/)
+- [GitHub](https://github.com/palantir)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 22.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 48.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 17.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/palantir/](https://apis.io/providers/palantir/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Palantir: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/palantir/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
